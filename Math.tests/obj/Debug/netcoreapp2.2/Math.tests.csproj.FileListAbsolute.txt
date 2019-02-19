@@ -1,0 +1,17 @@
+/Users/brianjones/Projects/Euler-dotnet/Math.tests/obj/Debug/netcoreapp2.2/Math.tests.csprojAssemblyReference.cache
+/Users/brianjones/Projects/Euler-dotnet/Math.tests/obj/Debug/netcoreapp2.2/Math.tests.csproj.CoreCompileInputs.cache
+/Users/brianjones/Projects/Euler-dotnet/Math.tests/obj/Debug/netcoreapp2.2/Math.tests.AssemblyInfoInputs.cache
+/Users/brianjones/Projects/Euler-dotnet/Math.tests/obj/Debug/netcoreapp2.2/Math.tests.AssemblyInfo.cs
+/Users/brianjones/Projects/Euler-dotnet/Math.tests/bin/Debug/netcoreapp2.2/Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+/Users/brianjones/Projects/Euler-dotnet/Math.tests/bin/Debug/netcoreapp2.2/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+/Users/brianjones/Projects/Euler-dotnet/Math.tests/bin/Debug/netcoreapp2.2/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+/Users/brianjones/Projects/Euler-dotnet/math.tests/bin/Debug/netcoreapp2.2/Math.tests.deps.json
+/Users/brianjones/Projects/Euler-dotnet/math.tests/bin/Debug/netcoreapp2.2/Math.tests.runtimeconfig.json
+/Users/brianjones/Projects/Euler-dotnet/math.tests/bin/Debug/netcoreapp2.2/Math.tests.runtimeconfig.dev.json
+/Users/brianjones/Projects/Euler-dotnet/Math.tests/bin/Debug/netcoreapp2.2/Math.tests.dll
+/Users/brianjones/Projects/Euler-dotnet/Math.tests/bin/Debug/netcoreapp2.2/Math.tests.pdb
+/Users/brianjones/Projects/Euler-dotnet/math.tests/obj/Debug/netcoreapp2.2/Math.tests.csproj.CopyComplete
+/Users/brianjones/Projects/Euler-dotnet/Math.tests/obj/Debug/netcoreapp2.2/Math.tests.dll
+/Users/brianjones/Projects/Euler-dotnet/Math.tests/obj/Debug/netcoreapp2.2/Math.tests.pdb
+/Users/brianjones/Projects/Euler-dotnet/Math.tests/bin/Debug/netcoreapp2.2/EulerMath.dll
+/Users/brianjones/Projects/Euler-dotnet/Math.tests/bin/Debug/netcoreapp2.2/EulerMath.pdb
