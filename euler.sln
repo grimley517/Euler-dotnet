@@ -3,17 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26124.0
 MinimumVisualStudioVersion = 15.0.26124.0
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "euler1", "euler1\euler1.csproj", "{07AA4B48-8F3D-4ADD-BD1E-EC0AFD52411E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "euler1", "Source\Euler1\euler1.csproj", "{07AA4B48-8F3D-4ADD-BD1E-EC0AFD52411E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "euler1.tests", "euler1.tests\euler1.tests.csproj", "{AAE1BF94-BA55-4B68-AB58-828DA19B6B77}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "euler1.tests", "Tests\Euler1\euler1.tests.csproj", "{AAE1BF94-BA55-4B68-AB58-828DA19B6B77}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Math", "Math\EulerMath.csproj", "{6F39A4BA-AA14-4434-81B8-CCDCD8E60EC3}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Math.tests", "Math.tests\Math.tests.csproj", "{D2FCEA6C-7CB3-4880-A6B0-D674A25FF5FE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "euler2", "euler2\euler2.csproj", "{093C59EB-BC06-4349-9D3B-E5CE3924D9DC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "euler2", "Source\Euler2\euler2.csproj", "{093C59EB-BC06-4349-9D3B-E5CE3924D9DC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "euler2.tests", "euler2.tests\euler2.tests.csproj", "{2B7D9683-77F1-491E-8CA5-C6DDA93304C0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "euler2.tests", "Tests\Euler2\euler2.tests.csproj", "{2B7D9683-77F1-491E-8CA5-C6DDA93304C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Euler3.tests", "Tests\Euler3\Euler3.tests.csproj", "{8AB1EF63-5BBA-4D35-BBB9-7103E59BC927}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Euler3", "Source\Euler3\Euler3.csproj", "{475B3522-0694-4A14-B03A-0EFA7260550A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -100,5 +104,29 @@ Global
 		{2B7D9683-77F1-491E-8CA5-C6DDA93304C0}.Release|x64.Build.0 = Release|Any CPU
 		{2B7D9683-77F1-491E-8CA5-C6DDA93304C0}.Release|x86.ActiveCfg = Release|Any CPU
 		{2B7D9683-77F1-491E-8CA5-C6DDA93304C0}.Release|x86.Build.0 = Release|Any CPU
+		{8AB1EF63-5BBA-4D35-BBB9-7103E59BC927}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AB1EF63-5BBA-4D35-BBB9-7103E59BC927}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AB1EF63-5BBA-4D35-BBB9-7103E59BC927}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{8AB1EF63-5BBA-4D35-BBB9-7103E59BC927}.Debug|x64.Build.0 = Debug|Any CPU
+		{8AB1EF63-5BBA-4D35-BBB9-7103E59BC927}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{8AB1EF63-5BBA-4D35-BBB9-7103E59BC927}.Debug|x86.Build.0 = Debug|Any CPU
+		{8AB1EF63-5BBA-4D35-BBB9-7103E59BC927}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AB1EF63-5BBA-4D35-BBB9-7103E59BC927}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8AB1EF63-5BBA-4D35-BBB9-7103E59BC927}.Release|x64.ActiveCfg = Release|Any CPU
+		{8AB1EF63-5BBA-4D35-BBB9-7103E59BC927}.Release|x64.Build.0 = Release|Any CPU
+		{8AB1EF63-5BBA-4D35-BBB9-7103E59BC927}.Release|x86.ActiveCfg = Release|Any CPU
+		{8AB1EF63-5BBA-4D35-BBB9-7103E59BC927}.Release|x86.Build.0 = Release|Any CPU
+		{475B3522-0694-4A14-B03A-0EFA7260550A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{475B3522-0694-4A14-B03A-0EFA7260550A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{475B3522-0694-4A14-B03A-0EFA7260550A}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{475B3522-0694-4A14-B03A-0EFA7260550A}.Debug|x64.Build.0 = Debug|Any CPU
+		{475B3522-0694-4A14-B03A-0EFA7260550A}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{475B3522-0694-4A14-B03A-0EFA7260550A}.Debug|x86.Build.0 = Debug|Any CPU
+		{475B3522-0694-4A14-B03A-0EFA7260550A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{475B3522-0694-4A14-B03A-0EFA7260550A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{475B3522-0694-4A14-B03A-0EFA7260550A}.Release|x64.ActiveCfg = Release|Any CPU
+		{475B3522-0694-4A14-B03A-0EFA7260550A}.Release|x64.Build.0 = Release|Any CPU
+		{475B3522-0694-4A14-B03A-0EFA7260550A}.Release|x86.ActiveCfg = Release|Any CPU
+		{475B3522-0694-4A14-B03A-0EFA7260550A}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
