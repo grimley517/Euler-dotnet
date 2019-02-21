@@ -1,4 +1,5 @@
 ﻿using System;
+using EulerMath;
 
 namespace Euler3
 {
@@ -6,7 +7,8 @@ namespace Euler3
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var prob = long.Parse(args[0]);
+            Console.WriteLine(Algorithms.HighestPrimeFactor(prob));
         }
     }
 }
