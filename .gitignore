@@ -37,3 +37,8 @@ msbuild.wrn
 .DS_Store
 
 *.cache
+
+# Jekyll
+_site/
+.sass-cache
+.jekyll-metadata
