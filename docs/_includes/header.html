@@ -1,0 +1,26 @@
+<nav class="navbar navbar-expand-md navbar-dark bg-dark" >
+    <a class="navbar-brand" href="{{ "index" | absolute_url }}">{{ site.title }}</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" 
+            role="button" 
+            id="navbarDropdown" 
+            href="#"
+            data-toggle="dropdown"
+            aria-haspopup="true"
+            aria-expanded = "false"> Blog </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          {% for post in site.posts %}
+            <a class="dropdown-item" href="{{ post.url | absolute_url }}">
+              {{ post.title }}</a>
+          {% endfor %}
+          </div>
+        </li>
+    </ul>
+  
+    </div>
+  </nav>
