@@ -40,7 +40,7 @@ namespace euler1.tests
             Assert.AreEqual(expected, actual);
         }
 
-                [TestMethod]
+        [TestMethod]
         public void TestToThousand()
         {
             //Problem spec

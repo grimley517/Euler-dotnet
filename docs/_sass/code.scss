@@ -1,0 +1,20 @@
+.highlight{
+    background-color: #333;
+    padding: 1em 0;
+    border-radius: 5px;
+    pre{    
+        color: #eee; 
+        .n{
+            color: aquamarine;
+        }
+        .c1{
+            color: goldenrod;
+        }
+        .k{
+            color: moccasin;
+        }
+        .nf{
+            color: cadetblue;
+        }
+    }
+}
