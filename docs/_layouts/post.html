@@ -1,0 +1,15 @@
+---
+layout: base
+---
+
+<div class="row">
+    <div class="col-md-2 col-xs-12">
+        {%- include left.html -%}               
+    </div>
+    <div class="col-md-10 col-xs-12">
+        <h1>{{ post.title }}</h1>
+        <p class="date">{{ post.time | date_to_long_string }}</p>
+
+        {{ content }}
+    </div>
+</div>

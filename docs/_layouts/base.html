@@ -7,12 +7,8 @@
 
     {%- include header.html -%}
     <div class = "container-fluid">
-      <div class="row">
-        <div class="side col-sm-1 col-lg-2"></div>
-        <div class="center col-sm-10 col-md-9 col-lg-8">
-        {{ content }}
-        </div>
-        <div class="side col-sm-1 col-md-2">
+       {{ content }}
+       <div class="row">
             <!-- <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>-->
             <!-- Blog front -->
             <!-- <ins class="adsbygoogle"
@@ -33,13 +29,11 @@
             <script>
             (adsbygoogle = window.adsbygoogle || []).push({});
             </script>
-        </div>
+        </div>    
+      <div class="row">
+      {%- include footer.html -%}
       </div>
-    </div>
-    
-    {%- include footer.html -%}
-  </div> 
-
+    </div> 
   </body>
 
 </html>
