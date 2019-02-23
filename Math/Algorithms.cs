@@ -21,5 +21,33 @@ namespace EulerMath
                 return Fibo(term-1) + Fibo(term-2);
             }
         }
+
+        public static long HighestPrimeFactor(long number){
+            long  answer = 2;
+            long limit = (int) Math.Ceiling(Math.Sqrt(number)) +1;
+            
+            while (answer < limit){
+                if( Divisible(number, answer)){
+                    long newNumber =  number / answer;
+                    if (IsPrime(newNumber)){
+                       return newNumber; 
+                    }
+                    else{
+                        return HighestPrimeFactor(newNumber);
+                    }                    
+                }
+                answer++;
+            }
+            return 1;
+        }
+
+
+        private static bool Divisible(long number, long answer){
+            return number % answer == 0;
+        }
+
+        private static bool IsPrime(long answer){
+            return HighestPrimeFactor(answer) == 1;
+        }
     }
 }
