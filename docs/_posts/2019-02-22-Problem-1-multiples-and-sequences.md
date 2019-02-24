@@ -58,13 +58,39 @@ $$ n = \left\lfloor target \div 5 \right\rfloor $$
 For our target sequence this translates to;
 
 ```csharp
-int Fives = CountofTerms(5);
+    int Fives = CountofTerms(5);
 
-private int CountofTerms(int number){
-    decimal divided = (decimal) Target / number;
-    return (int) Math.Floor(divided);
-}
+    private int CountofTerms(int number){
+        decimal divided = (decimal) Target / number;
+        return (int) Math.Floor(divided);
+    }
 ```
 
 ## Sum of a Sequence
 
+If we "fold" a sequence of numbers we can derive the formula for a sum of a sequence;
+
+$$ 1 + 5 = 6 $$
+
+$$ 2 + 4 = 6 $$
+
+$$ 3     = 6 \div 2 $$
+
+We can generalise this using the general formula:
+
+$$ \displaystyle\sum_{1}^{n} n = \frac{n}{2}(n+1)  $$
+
+n + 1 because each folded pair adds to this (6 in the example), the pairTotal. There are n/2 pairs (2 1/2 in the example), the pairCount.
+
+in code this translates to:
+
+```csharp
+    public static decimal SumSequence(int number){
+        decimal pairTotal = number + 1.0m;
+        decimal pairCount = number / 2.0m;
+        return pairTotal * pairCount;
+    }
+```
+
+
+ (My full solution is available on github.)[https://github.com/grimley517/Euler-dotnet/blob/master/Source/Euler1/Problem1.cs]      ]
