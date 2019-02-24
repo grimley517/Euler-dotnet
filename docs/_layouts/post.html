@@ -7,8 +7,8 @@ layout: base
         {%- include left.html -%}               
     </div>
     <div class="col-md-10 col-xs-12">
-        <h1>{{ post.title }}</h1>
-        <p class="date">{{ post.time | date_to_long_string }}</p>
+        <h1>{{ page.title }}</h1>
+        <p class="date">{{ page.time | date_to_long_string }}</p>
 
         {{ content }}
     </div>

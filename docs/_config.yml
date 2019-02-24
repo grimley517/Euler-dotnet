@@ -22,10 +22,18 @@ baseurl: "/Euler-dotnet/" # the subpath of your site, e.g. /blog
 url: "https://grimley517.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  grimley517
 
+sass: 
+  sass_dir: _sass
+
 # Build settings
 markdown: kramdown
+highlighter: rouge
 plugins:
   - jekyll-feed
+
+kramdown: 
+  input: GFM
+  syntax-highlighter: rouge
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

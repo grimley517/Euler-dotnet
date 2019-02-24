@@ -5,9 +5,9 @@ namespace EulerMath
     public static class Algorithms
     {
         public static decimal SumSequence(int number){
-            decimal left = number + 1.0m;
-            decimal right = number / 2.0m;
-            return left * right;
+            decimal pairTotal = number + 1.0m;
+            decimal pairCount = number / 2.0m;
+            return pairTotal * pairCount;
         }
 
         public static int Fibo (int term){
