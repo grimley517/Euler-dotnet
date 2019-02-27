@@ -1,24 +1,31 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace EulerMath
 {
     public static class Algorithms
     {
+
+
         public static decimal SumSequence(int number){
             decimal pairTotal = number + 1.0m;
             decimal pairCount = number / 2.0m;
             return pairTotal * pairCount;
         }
+        
+        public static Dictionary<int, int> Fibocache {get; set;} = new Dictionary<int, int>{
+            {0,1},
+            {1,2}
+        };
 
         public static int Fibo (int term){
-            if (term == 0){
-                return 1;
-            }
-            else if (term == 1){
-                return 2;
-            }
+            if (Fibocache.ContainsKey(term)){
+                return(Fibocache[term]);
+            }            
             else {
-                return Fibo(term-1) + Fibo(term-2);
+                int result = Fibo(term-1) + Fibo(term-2);
+                Fibocache.Add (term, result);
+                return result;
             }
         }
 
