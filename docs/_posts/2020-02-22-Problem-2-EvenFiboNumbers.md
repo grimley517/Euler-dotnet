@@ -11,7 +11,7 @@ The task is to sum the even members of the Fibonacci sequence.
 
 ## Calculating the Fibonacci sequence
 
-The fibonaci sequence is a sequence of numbers which is made of adding the previous two terms.  By defining the first two terms we can use a recursive definition to generate the sequence.
+The Fibbonacci sequence is a sequence of numbers which is made of adding the previous two terms.  By defining the first two terms we can use a recursive definition to generate the sequence.
 
 ```csharp
     public static Dictionary<int, int> Fibocache {get; set;} = new Dictionary<int, int>{
